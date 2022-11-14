@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../bgi.jpg);
+    height: 200vh;
+    width: 222vh;
+    background-color: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-right: 60px;
+}
+
+ul li{
+    display: inline-block;
+}
+ ul li a{
+    text-decoration: solid;
+    color: yellowgreen;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+ }
+ ul li a:hover{
+    background-color: rgb(128, 0, 0);
+    color: black;
+ }
+
+ ul li.active a{
+    background-color: brown;
+    color: black;
+
+ }
+
+.logo img{
+    float: right;
+    margin-right: 7cm;
+    margin-top: 3cm;
+    width: 200px;
+    height: 500px;
+}
+
+.title{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+ 
+.title h2{
+    color: red;
+    font-size: 50px;
+}
+
+.title h3{
+    color: black;
+    font-size: 40px;
+}
+
+.title h4{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: black;
+    margin-top: 10cm;
+    font-size: 30px;
+    color: black;
+}
+
+.title h5{
+    position: absolute;
+     top: 50%;
+    left: 21%;
+    margin-top: 11cm;
+    font-size: 15px;
+
+}
+
+.title h6{
+    position: absolute;
+    top: 50%;
+   left: 21%;
+   margin-top: 12cm;
+   font-size: 20px;
+   color: whitesmoke;
+
+}
+
+.intro img{
+float: right;
+margin-left: 5cm;
+margin-top: 18cm;
+width: 200px;
+height: 400px;
+}
+
+.title h7{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: black;
+    margin-top: 23cm;
+    font-size: 30px;
+    color: black;
+}
+.title h8{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    color: black;
+    margin-top: 25cm;
+    font-size: 30px;
+    color: black;
+}
+
+
+
+
+
